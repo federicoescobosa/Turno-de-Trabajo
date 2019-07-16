@@ -19,8 +19,8 @@ public class Generador extends JFrame {
 	private String[][] datos;
 	private boolean save = false, savePDF=false;
 	private String [] name;
-	
-
+        	
+         //Constructor
 	public Generador() throws ClassNotFoundException, SQLException {
 
 		Calendario cal = new Calendario();
